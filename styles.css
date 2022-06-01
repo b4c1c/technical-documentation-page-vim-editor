@@ -1,0 +1,38 @@
+/* css */
+body {
+  background-color: #f1f1f1;
+  color: black;
+  font-family: monospace, sans-serif, serif;
+  font-size: 16px;
+  line-height: 1.5
+}
+
+
+header {
+  padding: 10px;
+  font-size: 22px;
+
+}
+
+p {
+  display: block;
+  margin-left: 15px;
+}
+
+
+code {
+  background-color: gray;
+  display: block;
+  max-width: 100px;
+  border-radius: 3px;
+  padding: 5px 5px;
+  margin: 1px;
+
+}
+
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: #f1f1f1;
+  }
+}
